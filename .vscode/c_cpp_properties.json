@@ -2,12 +2,16 @@
     "configurations": [
         {
             "name": "ESP-IDF",
-            "compilerPath": "${config:idf.toolsPath}\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "compilerPath": "c:\\Program Files\\Espressif\\ESP-IDF Tools\\tools\\bin\\xtensa-esp32-elf-gcc.exe",
             "includePath": [
                 "${config:idf.espIdfPath}/components/**",
                 "${config:idf.espIdfPathWin}/components/**",
                 "${config:idf.espAdfPath}/components/**",
                 "${config:idf.espAdfPathWin}/components/**",
+                "c:/Program Files/Espressif/ESP-IDF Tools/tools/esp-rainmaker/components/esp_rainmaker/src/core",
+                "c:\\Program Files\\Espressif\\ESP-IDF Tools\\tools\\",
+                "C:/Program Files/Espressif\\ESP-IDF Tools\\tools\\esp-rainmaker\\components/**",
+                "c:/Program Files/Espressif/ESP-IDF Tools/tools/esp-rainmaker/components/esp_rainmaker/src/core",
                 "${workspaceFolder}/**"
             ],
             "browse": {

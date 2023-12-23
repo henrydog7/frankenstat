@@ -1,3 +1,8 @@
 {
-  "C_Cpp.intelliSenseEngine": "default"
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32h2",
+  "idf.openOcdConfigs": [
+    "board/esp32h2-ftdi.cfg"
+  ],
+  "idf.toolsPathWin": "C:\\Program Files\\Espressif\\ESP-IDF Tools\\"
 }

@@ -13,7 +13,7 @@
 #include <esp_log.h>
 #include <nvs_flash.h>
 
-#include <esp_rmaker_core.h>
+#include <c:/Program Files/Espressif/ESP-IDF Tools/tools/esp-rainmaker/components/esp_rainmaker/src/core/esp_rmaker_core.h>
 #include <esp_rmaker_standard_params.h>
 #include <esp_rmaker_standard_devices.h>
 #include <esp_rmaker_schedule.h>
